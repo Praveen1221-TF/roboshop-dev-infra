@@ -28,7 +28,7 @@ resource "terraform_data" "mongodb" {
 
   provisioner "remote-exec" {
     inline = [ 
-        "echoo hello world"
+        "echo hello world"
      ]
   }
 }
