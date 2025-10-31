@@ -14,9 +14,9 @@ resource "aws_instance" "mongodb" {
 
 resource "terraform_data" "mongodb" {
   triggers_replace = [
-    aws_instance.web.id,
-    aws_instance.database.id
-  ]
+    aws_instance.mongodb.id
+    ]
+  
 
       connection {
       type = "ssh"
