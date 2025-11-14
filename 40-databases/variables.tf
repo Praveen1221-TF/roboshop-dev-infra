@@ -22,3 +22,11 @@ variable "sg_name" {
         "backend_alb"
     ]
 }
+
+variable "zone_id" {
+    default = "Z0948150OFPSYTNVYZOY"
+}
+
+variable "domain_name" {
+    default = "practicedev.shop"
+}
